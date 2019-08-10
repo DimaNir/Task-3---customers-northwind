@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: rgb(43, 43, 43);
+  overflow: auto;
+}
+header{
+    height: 70px;
+    padding: 10px 0 0 26px;
+    
+}
+header h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+ 
+}
+
+p {
+    margin: 7px;
+    margin-left: 27px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+section{
+    display: flex;
+    width: 96%;
+    margin: auto;
+    background-color: white;
+    border: 1px gray solid;
+}
+#divcustomers{
+    width: 350px;
+    height: 100%;
+    border-right: 1px gray solid;
+}
+#customersList{
+    border-bottom: 0.5px;
+    border-bottom-style: solid;
+    height: 25px;
+    background-color: rgb(214, 214, 214);
+}
+
+#customersList> p {
+    margin: 0%;
+}
+#inputsearchcust{
+    padding-left: 15px;
+    font-size: 16px;
+    width: 100%;
+    height: 26px;
+}
+#customers{
+    overflow: auto;
+    padding: 3px;
+    margin: 5px;
+    margin-right: initial;
+}
+.compname{
+    padding: 3px 6px;
+    cursor: pointer;
+}
+.compname:hover{
+    background-color: lightgray;
+}
+#choicedetails{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px gray solid;
+    background-color: rgb(231, 231, 231);
+    height: 30px;
+    margin-left: 1px;
+}
+
+#inchoicedetails{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px gray solid;
+    background-color: rgb(231, 231, 231);
+    height: 30px;
+    }
+#choicedetails div{
+    width: 174px;
+    height: 30px;
+    border-right: 1px gray solid;
+    border-bottom: 1px gray solid;
+    /* text-align: center; */
+    cursor: pointer;
+  
+}
+#namecust{
+    margin: -3px 0 0 100px;
+}
+
+#detcustdet{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+td{
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+th{
+    padding: 4px 8px;
+    white-space: nowrap; 
+}
+.thcd{
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+#tablecd{
+    width: 60%;
+}
+#intop{
+    height: 70%;
+    overflow: auto;
+}
+#inbottom{
+    height: 30%;
+}
+#odtitle{
+    background-color: rgb(230, 230, 230);
+    height: 25px;
+    border-top: 2px gray solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#orddetails{
+    overflow: auto;
+}
+.oddt{
+    cursor: pointer;
+}
+.oddt:hover{
+    background-color: rgb(191, 205, 224);
+}
